@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// JSX syntax
 function App() {
   return (
     <div className="App">
