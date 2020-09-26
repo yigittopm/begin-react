@@ -2,17 +2,20 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 // Functional companent
-function App(){
-    return <h1>This Function App Companent</h1>;
-}
+// JSX 
 
-class App2 extends React.Component{
-    render(){
-        return <h1>This Class App Companent</h1>
-    }
+const names = ["Mert", "Buket", "Anıl"];
+
+function App(){
+    return (
+        // Everything is in "div"
+        <div>
+            <button type="button">JSX BUTTON</button>
+        </div>
+    );  
 }
 
 ReactDom.render(
-    <App2/>,
+    <App/>,
     document.getElementById('root') // or document.querySelector('#root')
 );
