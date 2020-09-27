@@ -4,7 +4,7 @@ const Collapse = (props) => {
 
     return (
         <div>
-                <a className="btn btn-primary" data-toggle="collapse" href={"#".concat(props.href)} role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a className="btn btn-success w-100" data-toggle="collapse" href={"#".concat(props.href)} role="button" aria-expanded="false" aria-controls="collapseExample">
                 {props.children.props.cardTitle}
                 </a>
             <div className="collapse" id={props.href}>
