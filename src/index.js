@@ -1,18 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-// Functional companent
-// JSX 
-
-const names = ["Mert", "Buket", "Anıl"];
-
-function App(){
-    return (
-        // Everything is in "div"
-        <div>
-            <button type="button">JSX BUTTON</button>
-        </div>
-    );  
+const App = () => {
+    return(
+        <h1>Hello React</h1>
+    );
 }
 
 ReactDom.render(
