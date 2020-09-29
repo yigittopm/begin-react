@@ -33,6 +33,14 @@ const App = () => {
                                 image="https://picsum.photos/id/100/200/300" />
                         </Collapse>
                     </div>
+                    <div className="col">
+                        <Collapse href="collapseExample4">
+                            <Card cardTitle="Dell"
+                                cardText="8GB Ram 256GB SSD"
+                                updatedTime="1 min ago updated"
+                                image="https://picsum.photos/id/1002/200/300" />
+                        </Collapse>
+                    </div>
                 </div>
             </div>
         </div>
