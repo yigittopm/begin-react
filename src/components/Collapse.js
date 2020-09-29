@@ -5,17 +5,21 @@ class Collapse extends React.Component {
     constructor(){
         super();
         this.state = {
-            showContent: true
+            showContent: false
         };
 
+    }
+
+    showMore = () => {
+        this.setState({showContent: !this.state.showContent});         
     }
 
     render() { 
         return (
             <div>
-                <a className="btn btn-success w-100">
+                <button className="btn btn-success w-100" onClick={this.showMore}>
                     {this.props.children.props.cardTitle}
-                </a>
+                </button>
 
                 {
                     this.state.showContent ? (
